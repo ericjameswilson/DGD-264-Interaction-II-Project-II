@@ -1,0 +1,277 @@
+/* TYPOGRAPHY */
+@font-face {
+    font-family: Din;
+    src: url(fonts/din-regular.ttf);
+}
+body{
+	font-family: Din,sans-serif;
+	font-size: 1rem;
+	color:#555559;
+}
+#bold{
+	font-weight: 500;
+}
+.container-main-header{
+	font-family:'sofia-pro',sans-serif;
+	font-weight: 300;
+	text-align:center;
+	color:#f9be00;
+}
+.container-section-heading{
+	text-align:center;
+	color:#f9be00;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.text-heading{
+	font-size:2.5rem;
+}
+.text-subheading{
+	font-size:1.5rem;
+}
+.col-50{
+	text-align:left;
+	text-transform: uppercase;
+}
+.stat-text{
+	text-transform: none;
+	padding: 0 50px 0 0;
+	margin:0 50px;
+}
+/* LAYOUT */
+
+img{
+	background:#fff;
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+.container-main{
+	width:960px;
+	max-width:100%;
+	margin:auto;
+	min-height:100vh;
+	background:#fff;
+	padding:0px;
+}
+.container-main-header{
+	margin: 10px 10px;
+}	
+.container-section{
+	background:#fff;
+	max-width:100%;
+	margin:0px;
+}
+.container-section-heading{
+	background:#555559;
+	max-width:100%;
+	margin-bottom:20px;
+	padding:0.5%;
+		cursor: pointer;
+}
+.col-100{
+	background:#fff;
+	width:96%;
+	height:auto;
+	margin:0 2% 40px;
+	float:left;
+	border: solid 2px #f9be00;
+	padding:2%;
+}
+.col-50{
+	background:#fff;
+	width:96%;
+	height:auto;
+	margin:0 2% 20px;
+	float:left;
+	border: solid 2px #f9be00;
+	padding:2%;
+}
+.col-30{
+	background:#fff;
+	width:96%;
+	height:auto;
+	margin:0 2% 20px;
+	float:left;
+	display:none;
+}
+#imgframe{
+	background:#fff;
+	width:100%;
+	margin:auto;
+	margin-bottom: 20px;
+	float:left;
+}
+.lowercase{
+	text-transform: none;
+	margin-top:-10px;
+	margin-bottom: 40px;
+}
+.stat-bar{
+	border:solid 2px #555559;
+	height:24px;
+	width:100%;
+	margin: 20px 0 30px 0;
+	position:relative;
+}
+.stat-bar-gold-1{
+	background:#f9be00;
+	height:20px;
+	width:0%;
+	margin: 20px 0 10px 0;
+	position:absolute;
+	top:-20;
+	left:0;
+	z-index: 10000
+}
+.stat-bar-gold-2{
+	background:#f9be00;
+	height:20px;
+	width:0%;
+	margin: 20px 0 10px 0;
+	position:absolute;
+	top:-20;
+	left:0;
+	z-index: 10000
+}
+.stat-bar-gold-3{
+	background:#f9be00;
+	height:20px;
+	width:0%;
+	margin: 20px 0 10px 0;
+	position:absolute;
+	top:-20;
+	left:0;
+	z-index: 10000
+}
+.stat-bar-gold-4{
+	background:#f9be00;
+	height:20px;
+	width:0%;
+	margin: 20px 0 10px 0;
+	position:absolute;
+	top:-20;
+	left:0;
+	}
+.stat-bar-gold-5{
+	background:#f9be00;
+	height:20px;
+	width:0%;
+	margin: 20px 0 10px 0;
+	position:absolute;
+	top:-20;
+	left:0;
+	}
+.stop-heading{
+	margin-bottom: 10px;
+}
+.no-border{
+	border:none;
+}
+.button-one {
+	width:200px;
+	height:30px;
+	padding-left:20px;
+	padding-top:2px;
+	border:2px solid #555559;
+	margin:auto;
+	margin-top: 5px;
+	margin: auto;
+	cursor:pointer;
+}
+
+@media screen and (min-width: 900px) {
+ 
+/* TYPOGRAPHY */
+@font-face {
+    font-family: Din;
+    src: url(fonts/din-regular.ttf);
+}
+
+body{
+	font-family: Din, sans-serif;
+	font-size: 16px;
+}
+
+.container-main-header{
+	font-family:'sofia-pro',sans-serif;
+	text-align:center;
+}
+.container-section-heading{
+	text-align:center;
+}
+.text-heading{
+	font-size:4rem;
+}
+.text-subheading{
+	font-size:2rem;
+}
+/* LAYOUT */
+.container-main{
+	width:960px;
+	max-width:100%;
+	margin:auto;
+	min-height:100vh;
+	padding:0px;
+}
+	
+.container-section{
+	max-width:100%;
+	margin:0px;
+}
+
+.container-section-heading{
+	max-width:100%;
+	margin-bottom:20px;
+}
+.col-100{
+	width:97%;
+	height:auto;
+	margin:0 13px 40px 13px;
+	float:left;
+}
+.col-50{
+	width:47%;
+	height:auto;
+	margin:0 13px 40px;
+	float:left;
+}
+.col-30{
+	width:31%;
+	height:auto;
+	margin:0 10px 20px;
+	float:left;
+	display:block;
+}
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+ 	margin: 0;
+}
+
+/* Clear Float */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
